@@ -1,9 +1,5 @@
-let x = 2;
+let x = 25;
 
-let y = 2;
+let y = 10;
 
-if( y > x ) {
-    console.log(y)
-}
-else if(y === x){
-    console.log("These are Equal")}
+x > y ? console.log(x) : console.log(y) 
